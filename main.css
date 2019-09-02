@@ -47,6 +47,10 @@ header{
     margin-left: 100%;
 }
 
+.ppicture{
+    border-radius: 50%;
+}
+
 .nav_links{
     list-style: none;
 }
