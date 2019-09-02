@@ -49,6 +49,8 @@ header{
 
 .ppicture{
     border-radius: 50%;
+    max-width: 60%;
+    height: auto;
 }
 
 .nav_links{
