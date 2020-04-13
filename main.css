@@ -176,3 +176,12 @@ button:hover{
     box-sizing: border-box;
     border: 6px solid rgba(0, 135, 169, 1);
 }
+
+.bars{
+    height: 24px;
+    width: 20%;
+}
+
+.python_bar{
+    width:25%;
+}
