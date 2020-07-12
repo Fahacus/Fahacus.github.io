@@ -43,7 +43,7 @@ header{
 .logo{
     cursor: pointer;
     margin-right: auto;
-    max-width: 25px;
+    max-width: 50%;
     height: auto;
 }
 
@@ -53,7 +53,7 @@ header{
 }
 
 .logo_icon{
-    max-width: 70px;
+    max-width: 10%;
     height: auto;
 }
 
