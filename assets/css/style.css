@@ -1,0 +1,52 @@
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-right {
+    border-right: 1px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg-left {
+    /* The image used */
+    background: linear-gradient(#00000080, rgba(0, 0, 0, 0.5)), url("../../pictures/background.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-right {
+    background-color: grey;
+}
+
+.profile-pic {
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+}
+
+.info-box {
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.main-body {
+    margin: 2rem;
+}
