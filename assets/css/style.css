@@ -1,3 +1,7 @@
+* {
+    font-family: 'Montserrat', serif;
+}
+
 .content-center {
     display: flex;
     justify-content: center;
@@ -13,20 +17,15 @@ body, html {
 }
 
 .bg-left {
-    /* The image used */
     background: linear-gradient(#00000080, rgba(0, 0, 0, 0.5)), url("../../pictures/background.png");
-  
-    /* Full height */
     height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bg-right {
-    background-color: grey;
+    background-color: rgb(201, 201, 201);
 }
 
 .profile-pic {
@@ -49,4 +48,10 @@ a {
 
 .main-body {
     margin: 2rem;
+}
+
+.popup {
+    width: 24rem;
+    height: 16rem;
+    background-color: rgb(240, 240, 240);
 }
