@@ -42,13 +42,13 @@ body, html {
     padding-right: 1rem;
 }
 
-a {
+.speical-a {
     text-decoration: none !important;
 }
 
-a:hover {
-    color: #005a5a !important;
-    text-decoration: none !important;
+.speical-a:hover {
+    color: #ffffff !important;
+    text-decoration: underline !important;
 }
 
 .main-body {
@@ -77,4 +77,32 @@ a:hover {
 .education-text {
     color: rgb(185, 185, 185);
     font-size: 0.95rem;
+}
+
+#container {
+	text-align: end;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: rgb(185, 185, 185);
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.1rem;
+	height: 1rem;
+	background-color: rgb(219, 219, 219);
+	animation: blink .25s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(219, 219, 219); 
+	}
 }
