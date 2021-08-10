@@ -1,0 +1,14 @@
+{
+    "twitch_url": "https://www.twitch.tv/lol_nemesis",
+    "updates": {
+        "update_type": "answer",
+        "update_details": {
+            "questionID": 3,
+            "question_text": "Will I die more than my new kills and assists in the next 5 mins?",
+            "successful": false,
+            "correct_answer_ID": null,
+            "correct_answer_text": null,
+            "internal_prediction_ID": 2
+        }
+    }
+}
